@@ -14,7 +14,7 @@ import {
 } from "masonic";
 import { useNavigate } from "react-router-dom";
 
-
+//主组件
 export default function PhotoMasonry(props: { prefectureId?: string, cityId?: string }) {
   const [photos, setPhotos] = useState<Photo[]>([])
   const isDesktop = useMediaQuery('(min-width: 960px)');
@@ -84,6 +84,8 @@ export default function PhotoMasonry(props: { prefectureId?: string, cityId?: st
     itemKey: (item) => item.id,
   })
 }
+
+//卡片组件
 
 const MasonryCard = ({data}: { data: Photo }) => {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
