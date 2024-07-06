@@ -23,6 +23,7 @@ import gradLeft from '../assets/gradients/left.png';
 import gradRight from '../assets/gradients/right.png';
 import { FaDice } from "react-icons/fa6";
 
+
 const routes = [
   {route: '/', text: 'sidebar.home', icon: <TbHome size={22}/>},
   {route: '/map', text: 'sidebar.map', icon: <TbMap size={22}/>},
