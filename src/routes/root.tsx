@@ -78,7 +78,7 @@ export default function Root() {
           className={`${darkMode.value ? 'dark' : ''} text-foreground scrollbar-hide`}>
           <Navbar onMenuOpenChange={setIsMenuOpen} isMenuOpen={isMenuOpen}>
             <NavbarBrand>
-              <Link className="font-bold text-inherit text-logo" href='/'>Boar Gallery</Link>
+              <Link className="font-bold text-inherit text-logo" href='/'>The Gift of Time</Link>
             </NavbarBrand>
             <NavbarContent justify="end">
               <NavbarItem className={`${isMenuOpen ? '' : 'hidden'} sm:flex`}>
